@@ -8,3 +8,15 @@
 # -- repository: YOUR REPOSITORY URL                                                                     -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
+import yfinance as yf
+data = yf.download("AAPL", start="2020-01-01", end="2022-07-30")
+precios = data["Adj Close"]
+import pandas as pd
+print(data)
+print(precios)
+# precios.loc[dates], donde dates = lista de fechas seleccionadas
+# precios.loc["2020-01-31":"2021-01-31"]
+
+
+
+
