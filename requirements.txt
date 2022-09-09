@@ -1,10 +1,10 @@
 
 # -- --------------------------------------------------------------------------------------------------- -- #
-# -- project: A SHORT DESCRIPTION OF THE PROJECT                                                         -- #
+# -- project: Inversion de Capital por estrategia activa y pasiva                                                        -- #
 # -- script: requirements.txt : text file with the required libraries for the project                    -- #
-# -- author: YOUR GITHUB USER NAME                                                                       -- #
+# -- author: CuauhtemocCC                                                                      -- #
 # -- license: GPL-3.0 License                                                                            -- #
-# -- repository: YOUR REPOSITORY URL                                                                     -- #
+# -- repository: https://github.com/CuauhtemocCC/Microestructuras-de-Trading-Lab-1                                                                     -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 
 pandas>=1.1.0
@@ -12,3 +12,5 @@ numpy>=1.19.1
 jupyter>=1.0.0
 chart_studio>=1.1
 plotly>=4.14
+yfinance>=0.1.74
+
